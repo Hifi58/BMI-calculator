@@ -7,7 +7,7 @@ weight = float(input("Entrez votre poid en kg : "))
 
 bmi = weight/(height/100)**2
 
-print("Votre IMC est de " ,bmi)
+print("Votre IMC est de " ,round(bmi, 2))
 
 if bmi <= 18.5:
     print("Vous êtes en sous-poid")
